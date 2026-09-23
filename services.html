@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Paws &amp; Polish Pet Grooming - Services</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="logo">Paws &amp; Polish</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="login.php">Login</a>
+        <a href="register.php">Register</a>
+        <a href="feedback.php">Feedback</a>
+    </nav>
+</header>
+
+<main class="page-content">
+
+    <h1>Our Services</h1>
+
+    <!-- Extra: simple keyword search over the cards below (see js/validate.js -> filterServices) -->
+    <div class="search-bar">
+        <input type="text" id="serviceSearch" onkeyup="filterServices()" placeholder="Search services, e.g. nail...">
+    </div>
+
+    <div class="card-grid">
+        <div class="card">
+            <h3>Bath &amp; Brush</h3>
+            <p>Wash, blow-dry and brush-out for all coat types.</p>
+            <p class="price">$35.00</p>
+            <a href="account.php" class="btn">Book This Service</a>
+        </div>
+        <div class="card">
+            <h3>Haircut &amp; Styling</h3>
+            <p>Breed-appropriate trim and styling.</p>
+            <p class="price">$45.00</p>
+            <a href="account.php" class="btn">Book This Service</a>
+        </div>
+        <div class="card">
+            <h3>Nail Trim</h3>
+            <p>Nail clipping and filing.</p>
+            <p class="price">$15.00</p>
+            <a href="account.php" class="btn">Book This Service</a>
+        </div>
+        <div class="card">
+            <h3>Flea/Tick Treatment</h3>
+            <p>Flea and tick wash plus a preventative treatment.</p>
+            <p class="price">$25.00</p>
+            <a href="account.php" class="btn">Book This Service</a>
+        </div>
+    </div>
+
+    <p>New here? <a href="register.php">Create an account</a> to book an appointment for your pet.</p>
+
+</main>
+
+<footer class="site-footer">
+    &copy; 2026 Paws &amp; Polish Pet Grooming
+</footer>
+
+<script src="js/validate.js"></script>
+</body>
+</html>
