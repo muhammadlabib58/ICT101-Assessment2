@@ -1,4 +1,5 @@
-ICT101 - Assessment 2
+ICT101 - Assessment 2.
+
 Built by: Shreya, Labib, Vanshika, Tshering, Siya.
 
 A six-page pet grooming website (customer accounts, service browsing,
